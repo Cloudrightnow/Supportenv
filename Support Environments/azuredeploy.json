@@ -88,7 +88,7 @@
     "SQLSubnetRef": "[concat(variables('SQLVnetID'), '/subnets/', variables('VNETSubnet1Name'))]",
     "SQLVmSize": "Standard_D2_v2",
     "SQLVnetID": "[resourceId('Microsoft.Network/virtualNetworks', 'VNET')]",
-    "StorageAccountName": "[concat(toLower('StorageAccount'), parameters(toLower('EnvironmentNameRoot')),parameters(toLower('EnvironmentName')))]",
+    "StorageAccountName": "[concat(toLower('StorageAccount'), toLower(parameters('EnvironmentNameRoot')),toLower(parameters('EnvironmentName')))]",
     "VMADImageOffer": "WindowsServer",
     "VMADImagePublisher": "MicrosoftWindowsServer",
     "VMADNicName": "[concat(parameters('VMADName'), 'NetworkInterface')]",
