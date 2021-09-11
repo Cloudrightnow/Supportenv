@@ -2,5 +2,41 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+    "virtualMachines_PX_name": {
+      "value": null
+    },
+    "virtualMachines_API_name": {
+      "value": null
+    },
+    "virtualMachines_COM_name": {
+      "value": null
+    },
+    "virtualMachines_SQL_name": {
+      "value": null
+    },
+    "virtualMachines_WEB_name": {
+      "value": null
+    },
+    "virtualNetworks_VNET_name": {
+      "value": null
+    },
+    "networkInterfaces_px318_name": {
+      "value": null
+    },
+    "networkInterfaces_api569_name": {
+      "value": null
+    },
+    "networkInterfaces_com791_name": {
+      "value": null
+    },
+    "networkInterfaces_sql276_name": {
+      "value": null
+    },
+    "networkInterfaces_web818_name": {
+      "value": null
+    },
+    "galleries_BaseImageGallery_externalid": {
+      "value": null
+    }
   }
 }
